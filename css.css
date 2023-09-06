@@ -1,0 +1,249 @@
+
+
+/*Pantallas de tamaño grande */
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    /*Variables globales */
+    :root{
+        --negro: black;
+        --blanco: white;
+        --mandarina:#FF4000;
+        --naranja: #FF8000;
+        --limon: #FFBF00;
+        --grish: #252836;
+        --grisl: #D4DBDB;
+        --texto: 'Roboto Condensed', sans-serif;
+        --haches: Georgia, serif;
+    }
+    /*La llave del body */
+    body{
+        font-family: var(--texto);
+        font-size: 20px;
+        font-weight: 300;
+        color: var(--negro);
+        min-height: 100vh;
+        flex-wrap: wrap;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    
+    
+    /*Los titulos h */
+    h1, h2, h3, h4, h5, h6{
+        text-align: center;
+        font-family: var(--haches);
+        font-size: 30px;
+        color: var(--grish);
+        font-weight: 500 !important;
+        line-height: 1.5 !important;
+        letter-spacing: 0.5px;
+    }
+    /*Variantes del titulo */
+    #achetitle{
+        text-align: center;
+        font-family: var(--haches);
+        font-size: 80px;
+        color: var(--naranja);
+        font-weight: 500 !important;
+        line-height: 1.5 !important;
+        letter-spacing: 0.5px;
+    
+    }
+    
+    /*Secciones en global */
+    section{
+        padding: 6rem 0;
+    
+    }
+    /*La llave del footer */
+    footer{
+        display: block;
+        background: var(--grish);
+        position: absolute;
+        min-width: 100%;
+        min-height: 20%;
+        z-index: 0;
+    }
+    /*Id's */
+    /*Este sirve para indicar los titulos de secciones */
+    #achetre{
+        color: var(--mandarina);
+        font-size: 50px;
+        font-weight: 600px;
+    
+    }
+    /*Este es del texto en el footer*/
+    #apo{
+        text-decoration: none;
+        color: var(--limon);
+    
+    }
+    /*Este es el texto de los servicios*/
+    #apol{
+        text-decoration: none;
+        color: var(--limon);
+        font-size: 25px;
+    
+    }
+    /*Aquí EMPIEZA la sección de la imagen de hermosillo */
+    #subscribe {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/cerro.jpg) fixed center center;
+        background-size: cover;
+        padding: 80px 0;
+      }
+    
+    #subscribe .subscribe-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+  }
+    #subscribe .subscribe-text {
+    color: #fff;
+  }
+   /*Aquí TERMINA la sección de la imagen de hermosillo */
+
+  /*Este es del carrusel */  
+  #slider{
+        padding: 0;
+    }
+    /*Las imagenes del carrusel*/
+    #imgslide{
+        height: 500px;
+        width: 250px;
+    
+    }
+    /*Este es el estilo del mapa */
+
+    #map {
+        height: 500px;
+        width: 100%;
+    }
+  /*ids fin*/
+
+ /*inician clases  */
+
+  /*Esta clase es el fondo para el footer y el navbar */
+    .bg-grish{
+        background-color: var(--grish) !important;
+    
+    }
+     /*Este es el estilo del navbar */
+    .nav{
+        position: absolute;
+        z-index: 9000;
+    }
+    /*Estos son los enlaces del navbar*/
+    .nav-link{
+        color: var(--mandarina);
+        text-transform: uppercase;
+        font-family: var(--texto);
+        font-size: 25px;
+        text-decoration: none;
+        margin: 3px;
+    }
+    /*Esto sirve pa que se pongan blancos los enlaces del navbar*/
+    .nav-link:hover{
+        color: var(--blanco);
+    }
+    /*Este es un icono para hacer el navbar responsivo*/
+    .navbar-toggler{
+        font-size: 40px;
+        color: var(--mandarina);
+    }
+    .navbar-toggler:focus{
+        outline: none;
+    }
+    
+    /*Esta es la tarjeta de presentación*/
+    /*La tarjeta de presentación y el tamaño de imagen no se modifican*/
+    .present{
+
+        margin-left: 30%;
+        padding-top: 5%;
+        width: 40%;
+        height: 30%;
+    }
+      /*Esta clase modifica la imagen de la tarjeta*/
+    .card-img{
+        width: 60%;
+        height: 55%;
+    }
+      /*Tarjetas genericas*/
+    .card{
+       position: relative;
+       bottom: 20px;
+       left: 28%;
+    }
+    /*Esta clase es para hacer el logo EMM sea con letras y no imagen*/
+    .logo{
+        width: 90px;
+        height: 40px;
+    }
+    
+    
+    
+    
+
+/*Pantallas de tamaño mediano */
+    
+@media screen and (min-width: 700px){
+    .contenedor{
+        width: 100%;
+    } 
+    
+    #porta{
+        width: 100%;
+        padding: none;
+        margin-left: 20%;
+        
+    }
+
+    #about{
+        Width: 100%;
+        height: 100%;
+        align-items: flex-start;
+    }
+    .card-img{
+        Width: 80%;
+        height: 95%;
+       
+    }
+    
+    #achetitle{
+        font-size: 55px;
+    }
+    
+    
+}
+/*Pantallas de tamaño pequeño */
+@media screen and (min-width: 300px){
+    .contenedor{
+        width: 100%;
+    } 
+    #porta{
+        width: 50%;
+        
+    }
+    #about{
+        Width: 100%;
+        height: 100%;
+        align-items: flex-start;
+    }
+    .card-img{
+        Width: 80%;
+        height: 95%;
+       
+    }
+    #achetitle{
+        font-size: 55px;
+    }
+    
+}  
+
+ 
+
+

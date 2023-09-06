@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Metas del head -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no ,initial-scale=1.0, maximum-scale=1.0, 
+    minimun-scale=1.0">
+    
+
+    <!-- Enlaces a css y otras paginas -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css.css">
+    <title>EMMWEB</title>
+  </head>
+  <body>
+    <!-- Contenedor principal del body -->
+    <div class="contenedor">
+      <!-- Aquí inicia el navbar -->
+      <nav class="navbar navbar-expand-lg navbar bg-grish fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#" id="Enegra"><img src="img/emmlogo.png" alt="logo" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+     <!-- Aquí estan las opciones del menu del navbar -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Acerca">Acerca de Mi</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Contacto
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  
+                  <a class="dropdown-item" href="https://wa.me/5216621826459">Whatsapp</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#Mailer">Correo</a>
+                </div>
+              </li>
+             
+          </div>
+        </div>
+         
+        </nav>
+    
+    <!-- Este es el carrusel-->
+      <section id="slider">
+    
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/CALCULADORA.png" alt="First slide" id="imgslide">
+              <div class="carousel-caption">
+                <h3 class="d-block" id="achetre">Asesoria Físcal</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/ELECRTONICA.png" alt="Second slide" id="imgslide">
+              <div class="carousel-caption">
+                <h3 class="d-block" id="achetre">Contabilidad</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/UTILIDAD.png" alt="Third slide" id="imgslide">
+              <div class="carousel-caption">
+                <h3 class="d-block" id="achetre">¿Problemas con el SAT?</h3>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>
+    
+      </section>
+  <!-- Sección de servicios -->
+      <section id="service" class="section-padding wow fadeInUp delay-05s">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <a name="Servicios"><h2 id="achetitle">Servicios</h2></a>
+              
+              
+              <hr class="bottom-line">
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="service-item">
+                <p id="apol">PERSONAS FÍSICAS ACTIVIDAD EMPRESARIAL Y/O PROFESIONAL</p>
+                <p>Servicios para personas físicas, empresas o profesionales</p>
+                <a href="#" data-toggle="modal" data-target="#Modal1">Ver mas...</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="service-item">
+                <p id="apol">RÉGIMEN DE ARRENDAMIENTO</p>
+                <p>Servicios sobre arrendaciones.</p>
+                <a href="#" data-toggle="modal" data-target="#Modal2">Ver mas...</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="service-item">
+                <p id="apol">RÉGIMEN DE INCORPORACIÓN FISCAL</p>
+                <p>Servicios para quienes se encuentran bajo un régimen de incorporación fiscal.</p>
+                <a href="#" data-toggle="modal" data-target="#Modal3">Ver mas...</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+              <div class="service-item">
+                <p id="apol">PERSONAS MORALES</p>
+                <p>Servicios para personas morales.</p>
+                <a href="#" data-toggle="modal" data-target="#Modal4">Ver mas...</a>
+              </div>
+            </div>
+          </div>
+          <hr class="bottom-line">
+        </div>
+      </section>
+
+<!--MODALES INICIAN-->
+<div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+     <div class="modal-content">
+      <div class="modal-header">
+       
+          
+            </div>
+            <div class="modal-body">
+              <ul class="list-group">
+                <li class="list-group-item"><b>Elaboración de documentos de trabajo para el pago de impuestos federales.</b>
+
+                  <p>Este reporte sirve para determinar el ISR e IVA en base al flujo de efectivo de cada mes.</p>
+                </li>
+                <li class="list-group-item"><b>Declaraciones Informativas mensuales.</b>
+
+                  <p>Se elaboran las declaraciones mensuales correspondientes al IVA en relación con los proveedores.</p>
+                  </li>
+                <li class="list-group-item"><b>Revisión mensual de utilidad. </b>
+                    <p>En busca de mejoras.</p>
+                    </li>
+                <li class="list-group-item"><b>Cálculo de pagos provisionales de ISR e IVA </b>
+                  
+                      <p>Elaboración de pagos provisionales mensuales para pagar el ISR e IVA, así como retenciones de ISR e IVA cuando corresponda. </p>
+                      </li>
+                <li class="list-group-item"><b>Cálculo de Impuesto sobre sueldos al estado e IMSS.</b>
+                       
+                        </li>
+                <li class="list-group-item"><b>Contabilidad electrónica. </b>
+                      <p>Envío mensual de contabilidad electrónica.</p>
+                       <li class="list-group-item">Cada mes se realizará la revisión contable y se elaborarán las declaraciones fiscales correspondientes, y se les entregará los acuses y/o comprobante de las mismas.</li>
+                       <li class="list-group-item">Puede estar exento de uno o más conceptos de los antes mencionados.</li>
+                       <li class="list-group-item">Las declaraciones anuales de ISR, declaraciones anuales de IVA, y las declaraciones anuales informativas, serán elaboradas de forma de forma oportuna y por ellas se cobrará adicionalmente un importe equivalente al de un honorario mensual. </li>
+                        </li>
+              </ul>
+                </div>
+      <div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Entiendo</button>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+     <div class="modal-content">
+      <div class="modal-header">
+       
+          
+            </div>
+            <div class="modal-body">
+              <ul class="list-group">
+                <li class="list-group-item"><b>Elaboración de documentos de trabajo para el pago de impuestos federales. </b>
+
+                  <p>Este reporte sirve para determinar el ISR e IVA en base al flujo de efectivo de cada mes</p>
+                </li>
+                <li class="list-group-item"><b>Declaraciones Informativas mensuales.</b>
+
+                  <p>Se elaboran las declaraciones mensuales correspondientes al IVA en relación con los proveedores.</p>
+                  </li>
+                <li class="list-group-item"><b>Revisión mensual de utilidad. </b>
+                    <p>En busca de mejoras.</p>
+                    </li>
+                <li class="list-group-item"><b>Cálculo de pagos provisionales de ISR e IVA </b>
+                  
+                      <p>Elaboración de pagos provisionales mensuales para pagar el ISR e IVA, así como retenciones de ISR e IVA cuando corresponda. </p>
+                      </li>
+                <li class="list-group-item"><b>Cálculo de Impuesto sobre sueldos al estado e IMSS.</b>
+                       
+                        </li>
+                <li class="list-group-item"><b>Contabilidad electrónica. </b>
+                      <p>Envío mensual de contabilidad electrónica.</p>
+                       <li class="list-group-item">Cada mes se realizará la revisión contable y se elaborarán las declaraciones fiscales correspondientes, y se les entregará los acuses y/o comprobante de las mismas.</li>
+                       <li class="list-group-item">Puede estar exento de uno o más conceptos de los antes mencionados.</li>
+                       <li class="list-group-item">Las declaraciones anuales de ISR, declaraciones anuales de IVA, y las declaraciones anuales informativas, serán elaboradas de forma de forma oportuna y por ellas se cobrará adicionalmente un importe equivalente al de un honorario mensual. </li>
+                        </li>
+              </ul>
+                </div>
+      <div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Entiendo</button>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+     <div class="modal-content">
+      <div class="modal-header">
+       
+          
+            </div>
+            <div class="modal-body">
+              <ul class="list-group">
+                <li class="list-group-item"><b>Elaboración de documentos de trabajo para el pago de impuestos federales. </b>
+
+                  <p>Este reporte sirve para determinar el ISR e IVA en base al flujo de efectivo de cada mes</p>
+                </li>
+                <li class="list-group-item"><b>Revisión mensual de utilidad. </b>
+                    <p>En busca de mejoras.</p>
+                    </li>
+                <li class="list-group-item"><b>Cálculo de pagos provisionales de ISR e IVA </b>
+                  
+                      <p>Elaboración de pagos provisionales mensuales para pagar el ISR e IVA, así como retenciones de ISR e IVA cuando corresponda. </p>
+                      </li>
+                <li class="list-group-item"><b>Presentación de los impuestos a los que se encuentra obligado.  </b>
+                      <p>ISR e IVA. </p>
+                       <li class="list-group-item">Cada mes se realizará la revisión contable y se elaborarán las declaraciones fiscales correspondientes, y se les entregará los acuses y/o comprobante de las mismas. </li>
+                       <li class="list-group-item">Las declaraciones anuales de ISR, declaraciones anuales de IVA, y las declaraciones anuales informativas, serán elaboradas de forma de forma oportuna y por ellas se cobrará adicionalmente un importe equivalente al de un honorario mensual</li>
+                       
+                        </li>
+              </ul>
+                </div>
+      <div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Entiendo</button>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+     <div class="modal-content">
+      <div class="modal-header">
+       
+          
+            </div>
+            <div class="modal-body">
+              <ul class="list-group">
+                <li class="list-group-item"><b>Elaboración de documentos de trabajo para el pago de impuestos federales.</b>
+
+                  <p>Este reporte sirve para determinar el ISR e IVA en base al flujo de efectivo de cada mes.</p>
+                </li>
+                <li class="list-group-item"><b>Declaraciones Informativas mensuales.</b>
+
+                  <p>Se elaboran las declaraciones mensuales correspondientes al IVA en relación con los proveedores.</p>
+                  </li>
+                <li class="list-group-item"><b>Revisión mensual de utilidad. </b>
+                    <p>En busca de mejoras.</p>
+                    </li>
+                <li class="list-group-item"><b>Cálculo de pagos provisionales de ISR e IVA </b>
+                  
+                      <p>Elaboración de pagos provisionales mensuales para pagar el ISR e IVA, así como retenciones de ISR e IVA cuando corresponda. </p>
+                      </li>
+                <li class="list-group-item"><b>Cálculo de Impuesto sobre sueldos al estado e IMSS.</b>
+                       
+                        </li>
+                <li class="list-group-item"><b>Contabilidad electrónica. </b>
+                      <p>Envío mensual de contabilidad electrónica.</p>
+                       <li class="list-group-item">Cada mes se realizará la revisión contable y se elaborarán las declaraciones fiscales correspondientes, y se les entregará los acuses y/o comprobante de las mismas.</li>
+                       <li class="list-group-item">Puede estar exento de uno o más conceptos de los antes mencionados.</li>
+                       <li class="list-group-item">Las declaraciones anuales de ISR, declaraciones anuales de IVA, y las declaraciones anuales informativas, serán elaboradas de forma de forma oportuna y por ellas se cobrará adicionalmente un importe equivalente al de un honorario mensual. </li>
+                        </li>
+              </ul>
+                </div>
+      <div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Entiendo</button>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--MODALES TERMINAN-->
+      
+<!-- Esto es meramente decorativo -->
+<section id="subscribe">
+  <div class="container wow fadeInUp">
+    <div class="row">
+      <div class="col-md-8">
+        <h3 class="subscribe-title">Servicios Contables en Hermosillo Sonora</h3>
+        <p class="subscribe-text">Soy una contadora con ética, valores y profesionalismo</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!-- Información sobre EMM -->
+      <section id="about">
+        <a name="Acerca"><h2 id="achetitle">Acerca de Mi</h2></a>
+        
+    
+        <div class="present">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/EMM 1.png" class="card-img" alt="foto de perfil">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h1 class="card-title">Lic. Ernestina Martinez Monge</h1>
+                <p class="card-text">Licenciada en contaduria pública</p>
+                <p class="card-text"><small class="text-muted">Hermosillo Sonora</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  <!-- Sona de contacto y mapa -->
+      <section class="bg-ligth-grey">
+        <div class="container">
+          <a name="Mailer"><h2 id="achetitle">Contacto</h2></a>
+          
+          &nbsp;&nbsp;&nbsp;
+          <div class="row">
+            <div class="col-md-4">
+              <div class="blog-item position-relative rounded md-5">
+                 <div id="map">
+                 </div>
+                 <!-- Este es el mapa -->
+                 <script src="script/mapa.js"></script>
+                 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYG5g2aJ9TjMlbYk7E_VuFYKSvHC1Ee6Y&callback=iniciarMap"></script>
+              </div>
+            </div>
+            <!-- Aquí se mandan los correos -->
+            <div class="col-md-7 offset-md-1">
+              <form action="script/correo.php" method="post" class="mt-6">
+                <div class="form-group">
+                   <input type="text" class="form-control" placeholder="Nombre y Apellido" name="nombre" required="">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Asunto" name="asun" required="">
+               </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Correo" name="mail" required="">
+                </div>
+                <div class="form-group">
+                  <textarea type="text" class="form-control" placeholder="Mensaje" name="msn" required=""></textarea>
+               </div>
+               <div class="form-group">
+                <button type="submit" class="btn btn-outline-warning" name="send">ENVIAR</button>
+               </div>
+              </form>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    
+    <!-- Este es el footer -->
+      <footer>
+        <div class="container p-3">
+          <div class="row text-center text-white">
+            <div class="col ml-auto">
+              <p id="apo">De las Américas #110 Interior 9
+                entre tlaxcala y Quintana Roo 
+                Col. San Benito C.P. 83190
+                Hermosillo Sonora
+              </p>
+            </div>
+          </div>
+        </div>       
+      </footer>
+    
+    </div>
+  
+
+    <!--Archivos javascript-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="script/jquery.min.js"></script>
+  <script src="script/jquery.easing.min.js"></script>
+  <script src="script/bootstrap.min.js"></script>
+  <script src="script/wow.js"></script>
+  <script src="script/jquery.bxslider.min.js"></script>
+  <script src="script/custom.js"></script>
+  
+  </body>
+ 
+</html>
